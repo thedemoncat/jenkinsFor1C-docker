@@ -35,6 +35,7 @@ pm.doCheckUpdatesServer()
 'mailer',
 'thinBackup',
 'timestamper',
+'git-changelog'
 ].each{ plugin ->
 pm = Jenkins.instance.updateCenter.getPlugin(plugin);
 println plugin;
