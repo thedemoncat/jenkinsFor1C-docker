@@ -35,7 +35,14 @@ pm.doCheckUpdatesServer()
 'mailer',
 'thinBackup',
 'timestamper',
-'git-changelog'
+'configuration-as-code',
+'ssh-slaves',
+'Parameterized-Remote-Trigger',
+'workflow-aggregator',
+'pipeline-aws',
+'pipeline-utility-steps',
+'git-changelog',
+'sonar'
 ].each{ plugin ->
 pm = Jenkins.instance.updateCenter.getPlugin(plugin);
 println plugin;
