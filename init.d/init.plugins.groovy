@@ -42,7 +42,8 @@ pm.doCheckUpdatesServer()
 'pipeline-aws',
 'pipeline-utility-steps',
 'git-changelog',
-'sonar'
+'sonar',
+'role-strategy'
 ].each{ plugin ->
 pm = Jenkins.instance.updateCenter.getPlugin(plugin);
 println plugin;
